@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"ENTER NUMBER OF ROWS : ";
+    cin>>n;
+    int m;
+    cout<<"Enter number of lower side : ";
+    cin>>m;
+    for(int i=1;i<=m;i++){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+            cout<<"  ";
+        }
+        for(int j=1;j<=i;j++){
+            cout<<"* ";
+        }
+        for(int j=1;j<=i-1;j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+    }
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=i-1;j++){
+            cout<<"  ";
+        }
+        for(int j=1;j<=n-i;j++){
+            cout<<"* ";
+        }
+        for(int j=1;j<=n-i+1;j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+}
