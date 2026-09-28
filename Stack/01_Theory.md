@@ -32,3 +32,34 @@ Important:
 Stack follows LIFO.
 
 --------STEP 2— Stack vs Array vs Linked List-----
+STACK IMPLEMENTATION
+
+A Stack is an ADT based on LIFO.
+
+A Stack can be implemented using:
+1. Array
+2. Linked List
+3. Vector
+4. Other suitable structures
+
+ARRAY:
+- Uses indexes.
+- Usually fixed capacity when using a normal static array.
+- A variable 'top' keeps track of the top element.
+
+LINKED LIST:
+- Uses nodes and pointers.
+- TOP can be represented by HEAD.
+- push() → insertion at beginning.
+- pop() → deletion at beginning.
+
+LINKED LIST CONCEPTS REQUIRED:
+1. Node
+2. Pointer
+3. Dynamic memory
+4. Insert at beginning
+5. Delete from beginning
+
+IMPORTANT:
+Stack is the concept/ADT.
+Array and Linked List are possible implementations.
