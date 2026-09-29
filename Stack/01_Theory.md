@@ -63,3 +63,44 @@ LINKED LIST CONCEPTS REQUIRED:
 IMPORTANT:
 Stack is the concept/ADT.
 Array and Linked List are possible implementations.
+
+-------STEP 3—Implementing Stack Using an Array-----
+
+We maintain:
+1. Array → stores elements
+2. top → stores index of TOP element
+
+Initially:
+top = -1
+
+EMPTY:
+top == -1
+
+FULL:
+top == SIZE - 1
+
+
+PUSH:
+1. Check overflow
+2. Increment top
+3. Store value at arr[top]
+
+POP:
+1. Check underflow
+2. Decrement top
+
+PEEK:
+Return arr[top] without changing top.
+
+
+IMPORTANT:
+During pop(), we do not necessarily erase the array value.
+We simply move top backward, so that the old value is no longer
+considered part of the Stack.
+
+
+Complexity:
+push() → O(1)
+pop() → O(1)
+peek() → O(1)
+isEmpty() → O(1)
